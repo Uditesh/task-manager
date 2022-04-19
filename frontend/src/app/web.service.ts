@@ -8,7 +8,7 @@ import List from './models/list';
 export class WebService {
   readonly ROOT_URL;
   constructor(private http: HttpClient ) {
-    this.ROOT_URL = "http://localhost:3000";
+    this.ROOT_URL = "https://git.heroku.com/task-manager-mean-stack-webapp.git";
    }
    get(uri: string){
      return this.http.get<[]>(`${this.ROOT_URL}/${uri}`);
