@@ -4,26 +4,29 @@ $blue: #276dd7;
 $dark-blue: #1985e4;
 $danger: #e27e7e;
 $light: #f4f4f4;
-$family-sans-serif: "Nunito","Sans-serif";
+$family-sans-serif: "Nunito",
+"Sans-serif";
 $primary: $blue;
 $control-border-width:2px;
 $input-border-color:transparent;
 $input-shadow: none;
 
-html,body{
-    background: linear-gradient(to right top,$turquoise,$blue);  
+html,
+body {
+    background: linear-gradient(to right top, $turquoise, $blue);
 }
 
-html,body{
+html,
+body {
     font-family: 'Nunito';
     height: 100%;
 }
 
-.white-text{
+.white-text {
     color: white;
 }
 
-.title{
+.title {
     color: white;
     font-family: 'Lato';
     font-size: 24px;
@@ -31,7 +34,7 @@ html,body{
     letter-spacing: 2px;
 }
 
-.centered-content{
+.centered-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +42,7 @@ html,body{
     height: 100%;
 }
 
-.modal-box{
+.modal-box {
     min-height: 200px;
     width: 100%;
     max-width: 580px;
@@ -48,10 +51,10 @@ html,body{
     padding: 35px;
 }
 
-.has-background-light{
+.has-background-light {
     background: $light;
 }
 
-.is-primary{
+.is-primary {
     background: $primary;
 }
