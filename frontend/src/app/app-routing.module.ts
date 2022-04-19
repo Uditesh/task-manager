@@ -7,7 +7,7 @@ import { SignupPageComponent } from './pages/signup-page/signup-page.component';
 import { TaskviewComponent } from './pages/taskview/taskview.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'lists', pathMatch: 'full'},
+  {path:'',redirectTo:'login', pathMatch: 'full'},
   {path:'lists',component: TaskviewComponent},
   {path:'lists/:listId',component: TaskviewComponent},
   {path:'newlist',component: NewlistComponent},
