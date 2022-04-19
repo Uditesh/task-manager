@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const mongoose = require("./database/db");
+const dotenv = require("dotenv");
 
 const List = require("./database/models/list");
 const Task = require("./database/models/task");
@@ -8,6 +9,7 @@ const User = require("./database/models/user");
 const jwt = require("jsonwebtoken");
 app.use(express.json());
 
+dotenv.config();
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
