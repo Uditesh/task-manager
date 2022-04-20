@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito:wght@400;700&display=swap');
-$turquoise : #44ddd0;
+$blueshade : #5f687e;
 $blue: #276dd7;
 $dark-blue: #1985e4;
 $danger: #e27e7e;
@@ -13,7 +13,7 @@ $input-shadow: none;
 
 html,
 body {
-    background: linear-gradient(to right top, $turquoise, $blue);
+    background:$blueshade;
 }
 
 html,
